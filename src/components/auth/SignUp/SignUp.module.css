@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container__main {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container__box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background: #121212;
+    border-radius: 2px;
+    padding-top: 50px;
+}
+
+.container__blockIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f18fb1;
+    text-align: center;
+}
+
+.container__blockIcon img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+}
+
+.container__name {
+    color: #c6c5c2;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.container__forms {
+    padding-top: 20px;
+    width: 320px;
+}
+
+.container__forms_names {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container__forms_names input {
+    width: 135px !important;
+}
+
+.container__forms_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container__forms_input input {
+    width: 305px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #c6c5c2;
+    font-family: "Roboto", sans-serif;
+    background: none;
+    color: #c6c5c2;
+    padding-left: 10px;
+}
+
+.container__forms_input input::placeholder {
+    font-family: "Roboto", sans-serif;
+}
+
+.container__forms_input_invalid {
+    border: 1px solid #ef3109;
+}
+
+.container__button {
+    background: #90caf9;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.container__text {
+    color: #90caf9;
+    text-align: right;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container__text_bottom {
+    color: #c6c5c2;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding: 30px 0;
+}
+
+.container__forms_names .invalid {
+    border: 2px solid darkred;
+}
+
+.container__forms_names .success {
+    border: 2px solid green;
+}
+
+.container__forms_password .invalid {
+    border: 2px solid darkred;
+}
+
+.container__forms_password .success {
+    border: 2px solid green;
+}
+
+.container__forms_email .invalid {
+    border: 2px solid darkred;
+}
+
+.container__forms_email .success {
+    border: 2px solid green;
+}
