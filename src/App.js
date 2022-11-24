@@ -1,7 +1,7 @@
-import Routes from "./Routes";
-import {AuthContext} from "./Data";
+import Routes from "./components/app/Routes";
+import {AuthContext} from "./components/app/Data";
 import {useEffect, useState} from "react";
-import {localStorageKey} from "./Constants";
+import {localStorageKey} from "./components/app/Constants";
 
 function App() {
     const [isAuth, setIsAuth] = useState(false);
